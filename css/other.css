@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section,
+.article {
+  position: relative;
+  width: 100%;
+}
+
+.section::after,
+.article::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* secondary */
+body {
+  background-color: #151515;
+  color: #fcfcfc;
+}
+
+/* title "ネコ" */
+.heading {
+  padding: 50px 30px;
+  letter-spacing: .2rem;
+}
+
+/* article "体の柔軟性" */
+.article {
+  background-color: #fcfcfc;
+  color: #020202;
+}
+
+/* article description */
+.description {
+  width: 50%;
+  float: right;
+  padding: 40px 20px 40px 30px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+/* footer */
+.footer {
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.footer cite a {
+    font-style: normal;
+    color: #fcfcfc;
+}

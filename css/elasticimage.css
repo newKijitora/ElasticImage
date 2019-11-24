@@ -1,66 +1,6 @@
 @charset "utf-8";
 
-/* リセット */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.section,
-.article {
-  position: relative;
-  width: 100%;
-}
-
-.section::after,
-.article::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-/* ページ */
-body {
-  background-color: #151515;
-  color: #fcfcfc;
-}
-
-/* タイトル「ネコ」 */
-.heading {
-  padding: 50px 30px;
-  letter-spacing: .2rem;
-}
-
-/* 記事「体の柔軟性」 */
-.article {
-  background-color: #fcfcfc;
-  color: #020202;
-}
-
-/* 記事の解説枠 */
-.description {
-  width: 50%;
-  float: right;
-  padding: 40px 20px 40px 30px;
-}
-
-.text {
-  margin-top: 10px;
-}
-
-.footer {
-  padding-top: 30px;
-  text-align: right;
-  padding-right: 20px;
-}
-
-.footer cite a {
-    font-style: normal;
-    color: #fcfcfc;
-}
-
-/* 画像のトリミングクラス */
+/* class ElasticImage */
 .trim {
   width: 50%;
   position: absolute;
