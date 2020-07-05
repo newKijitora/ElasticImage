@@ -10,7 +10,7 @@
 
 .trim > .board {
   position: relative;
-  margin: 0 auto;
+  margin: auto;
   height: 100%;
 }
 
